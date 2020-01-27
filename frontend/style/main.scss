@@ -4,6 +4,7 @@ body {
     color: #071C4D;
 }
 
+//Navbar
 .navbar-brand {
     img {
         max-height: 40px;
@@ -43,6 +44,7 @@ body {
     }
 }
 
+//Header
 header {
     margin-top: -70px;
     padding: 180px 0 165px;
@@ -98,6 +100,7 @@ header {
     }
 }
 
+//Wisata Popular
 .section-popular {
     min-height: 540px;
     background-color: #051334;
@@ -158,12 +161,141 @@ header {
                     color: #fff;
 
                     &:hover {
-                        background-color: #FFAA69;
+                        background-color: #EA8537;
                         color: #fff;
                     }
                 }
             }
 
         }
+    }
+}
+
+//Network
+.section-network {
+    background-color: #fff;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .img-network {
+        img {
+            width: 100%;
+            min-height: 70px;
+        }
+    }
+}
+
+//Testimonial
+.section-testimonial-heading {
+    background: linear-gradient(#fff 0%, #F7F9FF 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 18px;
+        margin-top: 14px;
+    }
+}
+
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px, 20px, 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+    .testimonial-content {
+        min-height: 380px;
+    }
+
+    img {
+        margin-top: 50px;
+    }
+
+    h3 {
+        font-size: 22px;
+        text-transform: capitalize;
+    }
+
+    .testimonial {
+        font-weight: 200;
+        font-size: 26px;
+        color: #6e6e6e;
+        min-height: 160px;
+    }
+
+
+
+    .trip-to {
+        font-weight: normal;
+        font-size: 22px;
+        color: #6e6e6e;
+        margin-bottom: 30px;
+    }
+
+    .section-button-testimoni {
+        padding-top: 20px;
+        text-transform: capitalize;
+
+
+        .btn-need-help {
+            background-color: #F2F2F2;
+            font-size: 20px;
+            color: #C3C3C3;
+
+            &:hover {
+                background-color: #D1D1D1;
+                color: #fff;
+            }
+
+        }
+
+        .btn-get-started {
+            background-color: #FF9E53;
+            font-size: 20px;
+            color: #fff;
+
+            &:hover {
+                background-color: #EA8537;
+                color: #fff;
+
+            }
+        }
+    }
+}
+
+//Footer
+
+.section-footer {
+    h5 {
+        font-size: 22px;
+        text-transform: capitalize;
+    }
+
+    a {
+        color: #071C4D;
+        text-decoration: none;
+        text-transform: capitalize;
     }
 }

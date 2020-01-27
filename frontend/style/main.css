@@ -150,7 +150,124 @@ header .btn-get-started:hover {
 }
 
 .section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details:hover {
-  background-color: #FFAA69;
+  background-color: #EA8537;
   color: #fff;
+}
+
+.section-network {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-network h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-network p {
+  font-size: 18px;
+}
+
+.section-network .img-network img {
+  width: 100%;
+  min-height: 70px;
+}
+
+.section-testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#F7F9FF));
+  background: linear-gradient(#fff 0%, #F7F9FF 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.section-testimonial-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-testimonial-heading p {
+  font-size: 18px;
+  margin-top: 14px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px, 20px, 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.section-testimonial-content .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content img {
+  margin-top: 50px;
+}
+
+.section-testimonial-content h3 {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.section-testimonial-content .testimonial {
+  font-weight: 200;
+  font-size: 26px;
+  color: #6e6e6e;
+  min-height: 160px;
+}
+
+.section-testimonial-content .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+  margin-bottom: 30px;
+}
+
+.section-testimonial-content .section-button-testimoni {
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+
+.section-testimonial-content .section-button-testimoni .btn-need-help {
+  background-color: #F2F2F2;
+  font-size: 20px;
+  color: #C3C3C3;
+}
+
+.section-testimonial-content .section-button-testimoni .btn-need-help:hover {
+  background-color: #D1D1D1;
+  color: #fff;
+}
+
+.section-testimonial-content .section-button-testimoni .btn-get-started {
+  background-color: #FF9E53;
+  font-size: 20px;
+  color: #fff;
+}
+
+.section-testimonial-content .section-button-testimoni .btn-get-started:hover {
+  background-color: #EA8537;
+  color: #fff;
+}
+
+.section-footer h5 {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.section-footer a {
+  color: #071C4D;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=main.css.map */
