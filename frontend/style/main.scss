@@ -4,7 +4,7 @@ body {
     color: #071C4D;
 }
 
-//Navbar
+//===== Navbar =====
 .navbar-brand {
     img {
         max-height: 40px;
@@ -44,7 +44,7 @@ body {
     }
 }
 
-//Header
+//===== Header =====
 header {
     margin-top: -70px;
     padding: 180px 0 165px;
@@ -78,7 +78,7 @@ header {
     }
 }
 
-//Statistics
+//===== Statistics =====
 .section-stats {
     margin-top: -50px;
 
@@ -100,7 +100,7 @@ header {
     }
 }
 
-//Wisata Popular
+//===== Wisata Popular =====
 .section-popular {
     min-height: 540px;
     background-color: #051334;
@@ -171,7 +171,7 @@ header {
     }
 }
 
-//Network
+//===== Network =====
 .section-network {
     background-color: #fff;
     margin-top: -170px;
@@ -196,7 +196,7 @@ header {
     }
 }
 
-//Testimonial
+//=====Testimonial Heading =====
 .section-testimonial-heading {
     background: linear-gradient(#fff 0%, #F7F9FF 100%);
     padding-top: 50px;
@@ -214,6 +214,7 @@ header {
     }
 }
 
+//===== Testimonial Content =====
 .section-testimonial-content {
     margin-top: -300px;
     padding-bottom: 50px;
@@ -285,8 +286,7 @@ header {
     }
 }
 
-//Footer
-
+// ===== Footer =====
 .section-footer {
     h5 {
         font-size: 22px;
@@ -300,14 +300,14 @@ header {
     }
 }
 
-//==== Details Page=====
+//===== Details Page =====
 .section-details-header {
     min-height: 310px;
     background-color: #E4E6EB;
     margin-top: -70px;
 }
 
-//Details-Content
+//===== Details-Content =====
 .section-details-content {
     margin-top: -210px;
     min-height: 100vh;
@@ -437,5 +437,164 @@ header {
             background-color: #FF7F1C;
             color: #fff;
         }
+    }
+}
+
+//===== Checkout-Content =====
+.section-checkout-content {
+    margin-top: -210px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item {
+        text-decoration: none;
+        color: #071C4D;
+        font-size: 20px;
+
+        &.active {
+            font-weight: bold;
+            color: #071C4D;
+        }
+    }
+
+    .card-checkout {
+        background-color: #fff;
+        border-radius: 11px;
+        padding: 30px 30px 20px 30px;
+        // atas kanan bawah kiri
+
+        h1 {
+            font-size: 26px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: lighter;
+            color: #B1B1B1;
+        }
+
+        th,
+        td {
+            font-size: 18px;
+            font-weight: normal;
+
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        span {
+            font-size: 14px;
+            color: #B1B1B1;
+        }
+
+        .btn-add-member {
+            background-color: #071C4D;
+            color: #FFFFFF;
+            font-size: 20px;
+
+        }
+    }
+
+    .card-right {
+        background-color: #fff;
+        padding: 30px;
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .table-checkout-informations {
+            th {
+                font-size: 18px;
+            }
+
+            td {
+                font-size: 18px;
+                font-weight: lighter;
+                color: #B1B1B1;
+
+                span {
+                    color: #FF9E53;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .payment-instructions {
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                color: #B1B1B1;
+            }
+
+
+        }
+
+        .payment-bank {
+            margin-bottom: 0;
+
+            img {
+                height: 45px;
+                width: 45px;
+                float: left;
+            }
+        }
+
+        .description {
+            margin-left: 10px;
+            overflow: hidden;
+            float: left;
+
+            h3 {
+                font-size: 16px;
+                font-weight: 300;
+            }
+
+            p {
+                font-weight: normal;
+                font-size: 16px;
+                color: #071C4D;
+            }
+        }
+    }
+
+    .join-container {
+        margin-top: -16px;
+        background-color: #FF9E53;
+
+        a {
+            font-size: 20px;
+            font-weight: lighter;
+            color: #fff;
+        }
+
+        &:hover {
+            background-color: #FF7F1C;
+            color: #fff;
+        }
+    }
+
+    .btn-cancel-booking {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #BFBFBF;
     }
 }

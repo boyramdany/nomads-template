@@ -405,4 +405,155 @@ header .btn-get-started:hover {
   background-color: #FF7F1C;
   color: #fff;
 }
+
+.section-checkout-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-checkout-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-checkout-content .breadcrumb-item {
+  text-decoration: none;
+  color: #071C4D;
+  font-size: 20px;
+}
+
+.section-checkout-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.section-checkout-content .card-checkout {
+  background-color: #fff;
+  border-radius: 11px;
+  padding: 30px 30px 20px 30px;
+}
+
+.section-checkout-content .card-checkout h1 {
+  font-size: 26px;
+}
+
+.section-checkout-content .card-checkout h2 {
+  font-size: 20px;
+}
+
+.section-checkout-content .card-checkout h5 {
+  font-size: 14px;
+}
+
+.section-checkout-content .card-checkout p {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #B1B1B1;
+}
+
+.section-checkout-content .card-checkout th,
+.section-checkout-content .card-checkout td {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.section-checkout-content .card-checkout th img,
+.section-checkout-content .card-checkout td img {
+  width: 60px;
+  height: 60px;
+}
+
+.section-checkout-content .card-checkout span {
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-checkout-content .card-checkout .btn-add-member {
+  background-color: #071C4D;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.section-checkout-content .card-right {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.section-checkout-content .card-right h2 {
+  font-size: 20px;
+}
+
+.section-checkout-content .card-right .table-checkout-informations th {
+  font-size: 18px;
+}
+
+.section-checkout-content .card-right .table-checkout-informations td {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #B1B1B1;
+}
+
+.section-checkout-content .card-right .table-checkout-informations td span {
+  color: #FF9E53;
+  font-size: 18px;
+}
+
+.section-checkout-content .card-right .payment-instructions h2 {
+  font-size: 20px;
+}
+
+.section-checkout-content .card-right .payment-instructions p {
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-checkout-content .card-right .payment-bank {
+  margin-bottom: 0;
+}
+
+.section-checkout-content .card-right .payment-bank img {
+  height: 45px;
+  width: 45px;
+  float: left;
+}
+
+.section-checkout-content .card-right .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-checkout-content .card-right .description h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.section-checkout-content .card-right .description p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #071C4D;
+}
+
+.section-checkout-content .join-container {
+  margin-top: -16px;
+  background-color: #FF9E53;
+}
+
+.section-checkout-content .join-container a {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.section-checkout-content .join-container:hover {
+  background-color: #FF7F1C;
+  color: #fff;
+}
+
+.section-checkout-content .btn-cancel-booking {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #BFBFBF;
+}
 /*# sourceMappingURL=main.css.map */
